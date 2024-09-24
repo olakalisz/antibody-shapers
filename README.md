@@ -13,7 +13,7 @@ It consists of a few elements:
 
 ```bash
 git clone https://github.com/olakalisz/antibody-shapers.git
-cd antibody_shapers
+cd antibody-shapers
 pip install .
 ```
 This should install the necessary requirements too.
