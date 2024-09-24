@@ -12,7 +12,9 @@ It consists of a few elements:
 ## Installation
 
 ```bash
-$ pip install git+https://github.com/olakalisz/antibody-shapers.git
+git clone https://github.com/olakalisz/antibody-shapers.git
+cd antibody_shapers
+pip install .
 ```
 This should install the necessary requirements too.
 

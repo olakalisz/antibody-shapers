@@ -143,4 +143,6 @@ dmypy.json
 
 # data and results
 data/*
+!data/placeholder.txt
 results/*
+!results/placeholder.txt
