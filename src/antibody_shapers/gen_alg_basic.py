@@ -12,7 +12,7 @@ rng = jr.PRNGKey(0)
 
 
 split_current_dir = os.getcwd().split('/')
-package_name = "antibody_shapers"
+package_name = "antibody-shapers"
 base_dir = "/".join(split_current_dir[:split_current_dir.index(package_name)+1])
 
 prim_site_antibody = jnp.load(f"{base_dir}/data/2R29_primary_s_antibody.npy")

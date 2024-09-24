@@ -12,7 +12,7 @@ import antibody_shapers.gen_alg_basic as ga
 
 # Base directory
 split_current_dir = os.getcwd().split('/')
-package_name = "antibody_shapers"
+package_name = "antibody-shapers"
 base_dir = "/".join(split_current_dir[:split_current_dir.index(package_name)+1])
 
 
